@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "client",
+    "my-app",
+    "server",
+    "dynamic-form",
+    "dynamic-form-semantic-ui",
+    "toolbelt"
+  ],
+  "scripts": {
+    "build": "tsc -p ./toolbelt/src && tsc -p ./dynamic-form && tsc -p ./dynamic-form-semantic-ui"
+  },
+  "resolutions": {
+    "graphql": "^14.0.2",
+    "graphql-cli/graphql": "^14.0.2"
+  }
+}

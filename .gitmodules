@@ -1,0 +1,15 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/tomitrescak/interfaces-server
+[submodule "client"]
+	path = client
+	url = https://github.com/tomitrescak/interfaces-client
+[submodule "toolbelt"]
+	path = toolbelt
+	url = https://github.com/tomino-npm/toolbelt
+[submodule "dynamic-form"]
+	path = dynamic-form
+	url = https://github.com/tomino-npm/dynamic-form
+[submodule "dynamic-form-semantic-ui"]
+	path = dynamic-form-semantic-ui
+	url = https://github.com/tomino-npm/dynamic-form-semantic-ui
